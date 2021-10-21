@@ -3,7 +3,7 @@ ON: [push]
 
 jobs:
   tests:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu:20.04
     container: jpinedaj/computational_workflows:latest
     
     steps:
